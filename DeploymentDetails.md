@@ -14,3 +14,8 @@ Once we Encrypted our Private Key, we can deploy safely
 ```sh
 forge script <script> --rpc-url <rpc_url> --account <account_name> --sender <address> --broadcast
 ```
+
+To delete the history in `zsh`
+```sh
+history -p
+```
