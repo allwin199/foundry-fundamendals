@@ -12,7 +12,7 @@ Enter password:
 Once we Encrypted our Private Key, we can deploy safely
 
 ```sh
-forge script <script> --rpc-url <rpc_url> --account <account_name> --sender <address> --broadcast
+forge script <script> --rpc-url <rpc_url> --account <account_name> --sender <address> --broadcast --verify <etherscan_api_key>
 ```
 
 To delete the history in `zsh`
